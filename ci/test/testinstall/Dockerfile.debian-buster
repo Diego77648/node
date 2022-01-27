@@ -1,4 +1,4 @@
-FROM debian:buster
+FROM debian:latest
 
 ENV container docker
 ENV LC_ALL C
