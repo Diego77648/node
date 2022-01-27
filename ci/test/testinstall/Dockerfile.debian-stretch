@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM debian:11.2
 
 ENV container docker
 ENV LC_ALL C
