@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM debian:11.5
 
 ENV container docker
 ENV LC_ALL C
