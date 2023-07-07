@@ -1,4 +1,4 @@
-FROM golang:1.17 AS builder
+FROM golang:bookworm AS builder
 
 # Install FPM
 RUN apt-get update \
