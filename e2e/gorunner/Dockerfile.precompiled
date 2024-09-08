@@ -1,4 +1,4 @@
-FROM alpine:3.12
+FROM alpine:3.19.4
 
 RUN apk add --no-cache bash gcc musl-dev make linux-headers iptables ipset ca-certificates openvpn bash sudo openresolv
 RUN ln -s /sbin/iptables /usr/sbin/iptables
