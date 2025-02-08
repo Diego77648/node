@@ -1,4 +1,4 @@
-FROM golang:1.17 AS builder
+FROM golang:1.24rc3 AS builder
 
 # Install FPM
 RUN apt-get update \
